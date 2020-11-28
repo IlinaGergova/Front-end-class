@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="flutterProfile.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.1-web\css\all.css">
+        <title>Flutter</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Flutter</h1>
+            <div id="search">
+                <input type="search" id="searchField" placeholder="Search">
+                <button id="searchBtn" class="fas fa-search"></button>
+            </div>
+        </header>
+
+        <main>
+            <aside id="profile">
+                <div id="pictureAndName">
+                    <img src="profilePic.png" id="profilePic" alt="profile picture">
+                    <span id="name">Martin Hristov</span>
+                </div>
+
+                <div id="down">
+                    <div id="info">
+                        <span class="count">Posts</span>
+                        <span class="count">Reactions</span>
+                        <span class="number" id="postNum">1</span>
+                        <span class="number" id="reactNum">7</span>
+                    </div>
+                    <button id="logOut">Log Out</button>
+                </div>  
+            </aside>
+
+            <section id="mainPart">
+                <section id="newComment">
+                    <img src="profilePic.png" id="profilePicMini" alt="profile picture">
+                    <input type="text" id="typeText" placeholder="Say something">
+                    <button id="addComment" class="far fa-comment-alt"></button>
+                </section>
+
+                <section class="post">
+                    <img src="profilePic.png" class="profilePicPost" alt="profile picture">
+                    <div class="text">
+                        <header class="postHeader">
+                            <div class="textSpan">
+                                <span class="profileName">Ivan Ivanov</span>
+                                <span class="time">&bull; 0 seconds ago</span>
+                            </div>
+
+                            <button id="delete" class="fas fa-times"></button>
+                        </header>
+                        <p>Ex eu non voluptate esse aliqua velit. Nulla duis ipsum incididunt culpa laborum commodo consequat in. Nostrud elit dolor laboris tempor officia duis exercitation anim voluptate ut enim officia prodent. 
+                            Labore elit esse velit quis et voluptete officia laboris cillum dolor pariatur excepteur esse laborum. Veniam adipisicing quis nisi cillum voluptate veniam nulla sunt.
+                        </p>
+
+                        <button id="like" class="far fa-thumbs-up"></button>
+                        <span id="currentLikes">5</span>
+                        <button id="dislike"class="far fa-thumbs-down"></button>
+                        <span id="currentDislikes">3</span>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <img src="profilePic.png" class="profilePicPost" alt="profile picture">
+                    <div class="text">
+                        <header class="postHeader">
+                            <div class="textSpan">
+                                <span class="profileName">Martin</span>
+                                <span class="time">&bull; Last month</span>
+                            </div>
+                        
+                            <button id="delete" class="fas fa-times"></button>
+                        </header>
+                        <p>Mollit consequat ipsum sit laboris incididunt sunt deserunt velit elit eu proident.</p>
+
+                        <button id="like" class="far fa-thumbs-up"></button>
+                        <span id="currentLikes">3</span>
+                        <button id="dislike" class="far fa-thumbs-down"></button>
+                        <span id="currentDislikes">0</span>
+                    </div>
+                </section>
+
+            </section>
+    </main>
+    </body>
+</html>
